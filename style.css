@@ -1,0 +1,211 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    max-width: 100%;
+    background-color:#0F1624;;
+}
+nav{
+   display: flex;
+   margin-top: 30px;
+   padding-left: 150px;
+   background-color: #171d3f;
+}
+nav .logo{
+    display: flex;
+}
+.gitlogo{
+margin-left: 380px;
+    margin-top: 22px;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    padding: 70px;
+}
+li a{
+    color: #aab6c530;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+:hover a{
+    color: yellow;
+}
+nav .logo p{
+    color: #1e5da5;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.header_menu{
+    margin-top: 157px;
+    padding-left: 155px;
+}
+.header_menu h1{
+    color: #FFF;
+font-family: Poppins;
+font-size: 55px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.header_menu p{
+    width: 989px;
+    color: #BCBCBC;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+button{
+    border-radius: 83px;
+background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+width: 250px;
+height: 70px;
+flex-shrink: 0;
+border: transparent;
+}
+:hover.header_menu button{
+    background: linear-gradient(270deg,yellow,pink,blue,green);
+    width: 200px;
+    height: 60px;
+    border: transparent;
+}
+span{
+    color: #FFF;
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.secondmenu h1{
+    padding-left: 155px;
+    color: #FFF;
+font-family: Poppins;
+font-size: 64px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 330px;
+}
+.secondmenu_box p{
+    color: #FFF;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 88.5%; /* 31.86px */
+text-align: center;
+}
+.secondmenu_box{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 150px;
+}
+.secondmenu_box .box1{
+    border-radius: 50px 0px;
+background: #0F1624;
+box-shadow: 0px 0px 12px 0px #FFF;
+width: 500px;
+height: 500px;
+flex-shrink: 0;
+}
+.secondmenu_box button{
+    width: 200px;
+height: 60px;
+flex-shrink: 0;
+border: transparent;
+margin-left: 30px;
+}
+:hover.secondmenu_box button{
+    width: 250px;
+height:70px;
+flex-shrink: 0;
+border: transparent;
+background: linear-gradient(270deg,yellow,pink,blue,green);
+}
+.heading_h1{
+    color: #FFF;
+font-family: Poppins;
+font-size: 64px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 329px;
+padding-left: 150px;
+}
+.techno{
+    margin-top: 100px;
+    padding-left: 155px;
+    display: flex;
+}
+.techno .blog{
+    width: 200px;
+    height: 250px;
+    border-radius: 50px 0px;
+background: #0F1624;
+box-shadow: 0px 0px 12px 0px #FFF;
+margin: 15px;
+} 
+:hover.techno .blog{
+    width: 300px;
+    height: 250px;
+    border-radius: 50px 0px;
+background: #0F1624;
+box-shadow: 0px 0px 12px 0px #ecc608;
+margin: 15px;
+} 
+.techno .blog h1{
+    color: #FFF;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 88.5%; /* 31.86px */
+text-align: center;
+margin-top: 70px;
+}
+.additional h1{
+    color: #FFF;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-left: 155px;
+margin-top: 130px;
+}
+.footerwrapper{
+    display:flex;
+  margin-top: 400px;
+  height: 170px;
+ background-color: #171d3f;
+}
+.footer_blog1{
+ padding-left: 155px;
+}
+.footer_blog1 img{
+margin-top: 35px;
+}
+.footer_blog1 p{
+    color: #FFF;
+font-family: Poppins;
+font-size: 42px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+@media only screen and (max-width: 600px) {
+   header{
+      background-color:lightcoral;
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+  }
